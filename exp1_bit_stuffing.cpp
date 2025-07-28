@@ -6,7 +6,7 @@ int main() {
     char c[100];
 
     printf("\nEnter the data to be sent (only 0s and 1s): ");
-    gets(c); 
+    fgets(c,sizeof(c),stdin);
 
     a = strlen(c);
 
